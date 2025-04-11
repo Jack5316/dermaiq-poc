@@ -1,0 +1,45 @@
+Don't care about 5. Data Visualization.
+Use All MCPs in 8.Model Context Protocol (MCP)
+1. **File Management**:
+   - Create a `todo.md` file to manage tasks.
+   - Use Python scripts for complex tasks.
+   - Ensure Python 3.12 is installed for compatibility.
+
+2. **Library Support**:
+   - **NumPy**: Used for numerical computations and data analysis.
+   - **Pandas**: Used for data manipulation and analysis.
+   - **uv**: Used for asynchronous I/O operations.
+   - **Text Processing**: Supports various text formats, including Markdown and plain text.
+   - **Image Processing**: Supports image formats like JPEG and PNG.
+   - **Data Visualization**: Supports visualizing data using Dash.
+
+3. **Task Management**:
+   - Use the `todo.md` file to manage tasks.
+   - Ensure tasks are clearly defined and prioritized.
+   - Use Python scripts to automate task management.
+
+4. **Scripting**:
+   - Write Python scripts to automate tasks.
+   - Ensure scripts are well-documented and tested.
+   - Use libraries like NumPy and Pandas for data processing.
+
+5. **Data Visualization**:
+   - Use Dash to create interactive dashboards.
+   - Ensure data is accurately represented and easy to interpret.
+
+6. **File Handling**:
+   - Handle files in various formats, including text, images, and more.
+   - Ensure files are properly organized and backed up.
+
+7. **Error Handling**:
+   - Implement error handling in scripts to ensure robustness.
+   - Log errors for troubleshooting and improvement.
+
+8. **Model Context Protocol (MCP)**:
+   - use Fetch MCP to fetch data 
+   - use Github MCP to fetch code
+   - use Perplexity MCP to search
+   - use Sequential Thinking MCP to think
+   - use Memory MCP to remember
+   - use Alpha-Vantage MCP to get finance data
+   - use Tavily MCP to get news
