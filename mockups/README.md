@@ -1,0 +1,1 @@
+This directory contains mockups for the DermaIQ app interface.
