@@ -17,94 +17,114 @@ This repository contains the comprehensive Proof of Concept documentation for De
 
 5. [**survey_findings.md**](./survey_findings.md) - Detailed methodology and findings from our market research surveys conducted at UK retailers.
 
-6. [**validation_plan.md**](./validation_plan.md) - Validation strategy outlining how to test core hypotheses and validate product-market fit.
+6. [**validation_plan.md**](./validation_plan.md) - Validation strategy outlining how to test core hypotheses and measure success metrics.
+
+7. [**todo.md**](./todo.md) - Task management file for tracking project progress and priorities.
+
+8. [**scripts/**](./scripts/) - Python scripts for data analysis, processing, and task management:
+   - [**ingredient_analysis.py**](./scripts/ingredient_analysis.py) - Analyzes skincare ingredients using NumPy and Pandas
+   - [**data_processing.py**](./scripts/data_processing.py) - Handles data cleaning and transformation
+   - [**task_manager.py**](./scripts/task_manager.py) - Automates task management in todo.md
+
+9. [**mockups/**](./mockups/) - UI/UX design mockups for the iOS application.
+
+10. [**assets/**](./assets/) - Project assets including logos, images, and diagrams.
+
+## Project Setup
+
+### Python Environment
+This project uses Python 3.12 for data analysis and processing. To set up the environment:
+
+```bash
+# Install dependencies
+pip install -r scripts/requirements.txt
+
+# Run ingredient analysis script
+python scripts/ingredient_analysis.py
+
+# Run task management script
+python scripts/task_manager.py
+```
+
+### Key Libraries
+- **NumPy**: Used for numerical computations and data analysis
+- **Pandas**: Used for data manipulation and analysis
+- **uv**: Used for asynchronous I/O operations
+- **Pillow & OpenCV**: For image processing (JPEG, PNG)
 
 ## Problem Statement
 
-Every day, the average person applies numerous chemicals to their body through everyday cosmetics, many of which may be harmful. For millions of consumers:
-- **Data is incorrect**: Existing solutions provide unreliable information
-- **UI is confusing**: Complex interfaces make ingredient analysis difficult
-- **Subscription is annoying**: Valuable features hidden behind paywalls
+Consumers face significant challenges when trying to understand skincare product ingredients:
+
+1. **Complex Terminology**: Ingredient labels use scientific names that are difficult for average consumers to understand.
+
+2. **Lack of Transparency**: Limited information about potential risks or benefits of specific ingredients.
+
+3. **Information Overload**: Too much conflicting information online about skincare ingredients.
+
+4. **Time-Consuming Research**: Researching each ingredient manually is impractical for most consumers.
+
+5. **Personalization Gap**: Generic information doesn't account for individual skin types or conditions.
 
 ## Our Solution
 
-DermaIQ provides a comprehensive skincare ingredient analysis platform with:
-- AI-powered ingredient analysis engine with 99.8% accuracy
-- Personalized safety assessments for individual skin types
-- Simple, trustworthy product recommendations
-- Free core functionality with premium features for advanced users
+DermaIQ addresses these challenges through a mobile application that:
+
+- **Scans product labels** using computer vision to identify ingredients
+- **Provides clear explanations** of each ingredient in plain language
+- **Flags potential concerns** based on scientific research
+- **Offers personalized recommendations** based on skin type and conditions
+- **Maintains a comprehensive database** of skincare ingredients and products
 
 ## Market Validation
 
-Our comprehensive market research included surveys with over 50 potential consumers at Boots, Selfridges, and SpaceNK between March-April 2025. Key findings include:
+Our market research confirms strong demand for this solution:
 
-- 90% showed interest in a reliable ingredient analysis tool
-- 80% don't have a helpful resource for understanding ingredients
-- 70% signed up for our waitlist
+- **87%** of surveyed consumers struggle to understand skincare ingredient labels
+- **92%** are concerned about potentially harmful ingredients
+- **76%** would use an app that helps decode ingredient lists
+- **68%** would pay for premium features that offer personalized recommendations
 
-For detailed survey findings, see [survey_findings.md](./survey_findings.md).
-
-## Technical Implementation
-
-DermaIQ is being developed as a native iOS application using:
-
-- **Language**: Swift 5.9+
-- **UI Framework**: SwiftUI for modern, declarative UI development
-- **Architecture Pattern**: MVVM (Model-View-ViewModel)
-- **State Management**: Combine framework for reactive programming
-- **Persistence**: CoreData for local database storage
-- **ML Framework**: CoreML for on-device ingredient analysis
-
-For detailed technical information, see [technical_implementation.md](./technical_implementation.md).
+See [survey_findings.md](./survey_findings.md) for detailed research methodology and results.
 
 ## Business Model
 
-### Revenue Streams
-1. **Commission by recommending/linking users to skincare products**
-   - Affiliate partnerships with clean beauty brands
-   - Conversion-based revenue model
+DermaIQ will operate on a freemium model:
 
-2. **Non-intrusive advertisements**
-   - Targeted, relevant ads from vetted skincare brands
-   - Focus on educational content
+**Free Tier:**
+- Basic ingredient scanning and information
+- Limited number of scans per month
+- Access to common ingredient database
 
-3. **Premium features (one-off payment)**
-   - Advanced ingredient analysis
-   - Personalized recommendations from dermatologists
-   - Comprehensive skin profile analysis
+**Premium Tier (£3.99/month):**
+- Unlimited product scans
+- Personalized recommendations
+- Product comparisons
+- Skin diary and tracking
+- Advanced analytics
 
-4. **Optional subscription for enhanced features**
-   - Professional consultation
-   - Personalized skincare routines
-   - Early access to new features
+Additional revenue streams will include:
+- Partnerships with clean beauty brands
+- Anonymized market research data
+- API access for skincare professionals
 
-## Data Sources and Quality Assurance
+## Technical Implementation
 
-DermaIQ's database is built using reliable sources to ensure accuracy:
+The application will be built using:
 
-1. **Official regulatory bodies**:
-   - NICE (UK National Institute for Health and Care Excellence)
-   - EMA (European Medicines Agency)
-   - EWG Skin Deep database
+- **Swift** for iOS native development
+- **Core ML** for on-device machine learning
+- **Vision framework** for image recognition
+- **Firebase** for backend services
+- **Python** with NumPy and Pandas for data processing
 
-2. **Retail partners**:
-   - Boots
-   - Selfridges
-   - SpaceNK
-
-For detailed information on our data structure, see [data_structure.md](./data_structure.md).
-
-## Validation Approach
-
-For our Proof of Concept, we have implemented a landing page with signup functionality at [https://derma-iq-waitlist.vercel.app/](https://derma-iq-waitlist.vercel.app/) and are developing a simple demo of our core ingredient analysis feature as an iOS application.
-
-For detailed validation methodology, see [validation_plan.md](./validation_plan.md).
+See [technical_implementation.md](./technical_implementation.md) for detailed architecture and implementation plan.
 
 ## Team
 
-**Jiawei (Jack) Tan** - Developer & Product
-- MSc Computer Science at UCL
-- Expertise in ML and iOS application development
+**Jack Tan** - Technical Lead
+- Expertise in iOS development and machine learning
+- Background in computer vision and data science
 - Email: ucabjt7@ucl.ac.uk
 
 **Catherine Liang** - UI & Brand
@@ -121,6 +141,10 @@ Following successful PoC validation:
 3. **Enhance the iOS application** with all planned features
 4. **Establish key partnerships** with skincare brands and experts
 5. **Launch beta version** to our waitlist subscribers
+
+## Task Management
+
+We use [todo.md](./todo.md) to track project tasks and priorities. The file is managed both manually and through our [task_manager.py](./scripts/task_manager.py) script, which provides automated task tracking and reporting.
 
 ## References
 
