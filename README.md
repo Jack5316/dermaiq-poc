@@ -9,6 +9,8 @@ This repository contains all materials for the DermaIQ project, organized across
 - Proof of Concept materials
 - Technical specifications
 - Business Plan Appendices
+- Investor Materials
+- Product Roadmap
 
 ### Coursework Materials Branch (`add-course-materials`)
 - Additional coursework deliverables
@@ -36,6 +38,17 @@ This repository contains all materials for the DermaIQ project, organized across
   │   │   ├── Appendix D: Competitor Analysis
   │   │   ├── Appendix E: Financial Projections
   │   │   └── Interactive Dashboard (Dash)
+  │   ├── /investor_materials
+  │   │   ├── Investor Pitch Deck
+  │   │   ├── Executive Summary
+  │   │   ├── Financial Projections
+  │   │   ├── Competitive Analysis
+  │   │   └── Investor FAQ
+  │   ├── /product_roadmap
+  │   │   └── DermaIQ Product Roadmap 2025-2026
+  │   └── /market_analysis
+  │       ├── Skincare Technology Market Trends
+  │       └── DermaIQ User Personas
   ├── /documentation
   │   └── Implementation plans, etc.
   ├── /blog
@@ -76,6 +89,49 @@ Comprehensive financial projections including revenue breakdown, user growth pro
 
 ### Interactive Dashboard
 An interactive Dash dashboard that visualizes key business metrics and projections for DermaIQ. It provides a comprehensive view of our user growth, financial projections, market research insights, and competitive analysis in an easy-to-interpret format.
+
+## Investor Materials
+
+We have prepared detailed investor materials to support fundraising efforts:
+
+### Investor Pitch Deck
+A comprehensive 14-slide presentation covering DermaIQ's value proposition, market opportunity, product demonstration, business model, traction, competitive landscape, team, strategic partnerships, product roadmap, financial projections, and funding ask.
+
+### Executive Summary
+A concise overview of DermaIQ's business opportunity, market potential, and investment proposition, designed to provide investors with a clear understanding of our value proposition and growth strategy.
+
+### Financial Projections
+Detailed 5-year financial projections including revenue streams, user growth, unit economics (CAC: £2.50, LTV: £35.90), profit & loss, cash flow, and funding requirements with sensitivity analysis.
+
+### Competitive Analysis
+In-depth analysis of DermaIQ's position in the market compared to direct competitors (Think Dirty, EWG, INCI Decoder, SkinSafe, Yuka) and indirect competitors, highlighting our key differentiators and competitive advantages.
+
+### Investor FAQ
+Comprehensive answers to common investor questions covering business model, technology, team, competition, financials, and risks, providing consistent messaging for investor meetings.
+
+## Product Roadmap
+
+Our Product Development Roadmap (2025-2026) outlines our strategic plan for feature development over the next 18 months, divided into three phases:
+
+### Phase 1: Foundation (May-Oct 2025)
+- Core ingredient analysis engine
+- Computer vision integration
+- Basic personalization
+- iOS app launch
+
+### Phase 2: Enhancement (Nov 2025-Apr 2026)
+- Advanced personalization
+- Community features
+- Routine building & tracking
+- Android app launch
+
+### Phase 3: Expansion (May-Oct 2026)
+- B2B API development
+- NHS integration
+- Web platform
+- International expansion preparation
+
+The roadmap includes detailed feature specifications, technical requirements, resource planning, risk assessment, and success metrics for each phase.
 
 ## Technical Specifications
 
