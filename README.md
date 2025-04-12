@@ -92,6 +92,14 @@ An interactive Dash dashboard that visualizes key business metrics and projectio
 2. NHS Digital Health
 3. Look Fantastic
 
+## Acknowledgements and UCL Contribution
+
+DermaIQ extends sincere gratitude to University College London (UCL) for the exceptional support, resources, and guidance provided throughout our development journey. We are committed to giving back to the UCL startup ecosystem through mentorship, resource sharing, and ongoing collaboration.
+
+Our team has outlined a comprehensive plan for contributing to UCL's entrepreneurial community, including guest lectures, internship opportunities, open-source contributions, and financial support for future UCL startups.
+
+**[Read our full acknowledgements and UCL contribution plan](acknowledgements.md)**
+
 ## Contact Information
 
 - Email: info@dermaiq.com
