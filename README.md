@@ -8,6 +8,7 @@ This repository contains all materials for the DermaIQ project, organized across
 - Core project documentation
 - Proof of Concept materials
 - Technical specifications
+- Business Plan Appendices
 
 ### Coursework Materials Branch (`add-course-materials`)
 - Additional coursework deliverables
@@ -27,6 +28,14 @@ This repository contains all materials for the DermaIQ project, organized across
   │   ├── In-class presentation files
   │   ├── Video script files
   │   └── Video ingenuity plan files
+  ├── /business_plan
+  │   ├── /appendices
+  │   │   ├── Appendix A: Business Model Canvas
+  │   │   ├── Appendix B: Market Research Data
+  │   │   ├── Appendix C: Technical Architecture
+  │   │   ├── Appendix D: Competitor Analysis
+  │   │   ├── Appendix E: Financial Projections
+  │   │   └── Interactive Dashboard (Dash)
   ├── /documentation
   │   └── Implementation plans, etc.
   ├── /blog
@@ -46,6 +55,28 @@ Our market research has revealed compelling statistics:
 - 76% would use an ingredient decoding app
 - 68% are willing to pay for personalized recommendations
 
+## Business Plan Appendices
+
+We have developed comprehensive business plan appendices to support our startup:
+
+### Appendix A: Business Model Canvas
+Detailed breakdown of DermaIQ's business model using the Business Model Canvas framework, including customer segments, value propositions, channels, customer relationships, revenue streams, key resources, key activities, key partnerships, and cost structure.
+
+### Appendix B: Market Research Data
+Comprehensive market research findings, including consumer survey results, market size analysis, consumer behavior insights, and market trends. Includes detailed methodology and data visualization.
+
+### Appendix C: Technical Architecture
+In-depth documentation of DermaIQ's technical implementation plan, including architecture overview, technology stack, core components, development phases, and technical success metrics.
+
+### Appendix D: Competitor Analysis
+Detailed analysis of direct and indirect competitors, competitive positioning, DermaIQ's key differentiators, market share analysis, and strategic response to competition.
+
+### Appendix E: Financial Projections
+Comprehensive financial projections including revenue breakdown, user growth projections, cost structure, funding requirements, unit economics, cash flow projections, break-even analysis, sensitivity analysis, and industry benchmarks.
+
+### Interactive Dashboard
+An interactive Dash dashboard that visualizes key business metrics and projections for DermaIQ. It provides a comprehensive view of our user growth, financial projections, market research insights, and competitive analysis in an easy-to-interpret format.
+
 ## Technical Specifications
 
 - **Mobile Platform**: iOS (Android planned for Q1 2026)
@@ -53,6 +84,7 @@ Our market research has revealed compelling statistics:
 - **Backend**: Python, Flask, AWS Lambda
 - **Database**: MongoDB, AWS DynamoDB
 - **Hosting**: AWS (EC2, S3, CloudFront)
+- **Data Visualization**: Dash, Plotly
 
 ## Strategic Partnerships
 
