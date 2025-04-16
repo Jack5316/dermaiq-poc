@@ -218,16 +218,7 @@ DermaIQ's proprietary AI algorithms provide deeper, more accurate analysis than 
 - **Contextual Analysis**: Considers ingredient interactions and concentrations
 - **Continuous Learning**: Algorithm improves with user feedback and new research
 
-### 2. Personalized Skin Compatibility Matching
-
-DermaIQ offers truly personalized recommendations based on individual skin profiles:
-
-- **Detailed Skin Profiling**: Considers 20+ factors vs. competitor average of 5-7
-- **Ingredient Sensitivity Detection**: Identifies potential irritants based on user history
-- **Adaptive Recommendations**: Evolves with user feedback and product usage
-- **Routine Optimization**: Suggests product combinations for maximum effectiveness
-
-### 3. Computer Vision Ingredient Recognition
+### 2. Computer Vision Ingredient Recognition
 
 Unlike most competitors that rely on barcode scanning, DermaIQ uses advanced computer vision:
 
@@ -235,6 +226,15 @@ Unlike most competitors that rely on barcode scanning, DermaIQ uses advanced com
 - **Works Without Barcodes**: Can analyze products not in the database
 - **Multi-language Support**: Recognizes ingredient names in multiple languages
 - **Handles Poor Lighting**: Effective in various real-world conditions
+
+### 3. Personalized Skin Compatibility Matching
+
+DermaIQ offers truly personalized recommendations based on individual skin profiles:
+
+- **Detailed Skin Profiling**: Considers 20+ factors vs. competitor average of 5-7
+- **Ingredient Sensitivity Detection**: Identifies potential irritants based on user history
+- **Adaptive Recommendations**: Evolves with user feedback and product usage
+- **Routine Optimization**: Suggests product combinations for maximum effectiveness
 
 ### 4. Scientific Credibility & Transparency
 

@@ -111,7 +111,7 @@ Comprehensive answers to common investor questions covering business model, tech
 
 ## Product Roadmap
 
-Our Product Development Roadmap (2025-2026) outlines our strategic plan for feature development over the next 18 months, divided into three phases:
+Our [Product Development Roadmap (2025-2026)](coursework/business_plan/product_roadmap/dermaiq_product_roadmap_2025-2026.md) outlines our strategic plan for feature development over the next 18 months, divided into three phases:
 
 ### Phase 1: Foundation (May-Oct 2025)
 - Core ingredient analysis engine

@@ -308,5 +308,3 @@ Our focus is on building sustainable value that would be attractive to multiple 
 This timeline allows us to build substantial value while remaining aligned with typical venture capital investment horizons. However, we remain open to strategic opportunities that may arise earlier if they deliver exceptional value to shareholders.
 
 ---
-
-*Created for DermaIQ on April 12, 2025*
