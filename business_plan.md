@@ -539,12 +539,69 @@ By empowering consumers with knowledge about skincare ingredients, DermaIQ not o
 
 ### Appendix C: Technical Architecture
 
-[See separate technical_implementation.md document]
+#### System Architecture Diagram
 
-### Appendix D: Competitor Analysis
+Below is a high-level system architecture for DermaIQ:
 
-[Detailed competitive analysis available upon request]
+```
++-------------------+       +-------------------+       +-------------------+
+|    iOS App        | <---> |   Backend API     | <---> |   Ingredient DB   |
+|  (Swift, CoreML)  |       | (Python, FastAPI) |       |  (MongoDB, Cloud) |
++-------------------+       +-------------------+       +-------------------+
+        |                        |                             |
+        |                        v                             v
+        |                +-------------------+        +-------------------+
+        |                |  Auth Service     |        |  Analytics/Logs   |
+        |                | (OAuth2, Firebase)|        | (Mixpanel, FB)    |
+        |                +-------------------+        +-------------------+
+        v
++-------------------+
+| 3rd Party APIs    |
+| (OCR, Payments)   |
++-------------------+
+```
 
-### Appendix E: Financial Projections
+**Description:**
+- The iOS app communicates with a Python-based backend API, which handles user requests, ingredient analysis, and user profile management.
+- The backend interacts with a cloud-hosted MongoDB database for ingredient and user data.
+- Auth is managed via OAuth2/Firebase; analytics via Mixpanel/Firebase Analytics.
+- 3rd party APIs (OCR, payment gateways) are integrated as needed.
 
-[Detailed monthly projections available in spreadsheet format upon request]
+---
+
+### SMART Objectives (2025–2026)
+- Acquire 50,000 users in first year (10% conversion to paid)
+- Achieve £250,000 revenue in year 1, £5.5M by year 3
+- Reach break-even at 6,684 paid subscribers within 12 months
+- Secure 2 B2B API partnerships by end of year 2
+- Maintain app store rating of 4.5+ stars
+
+---
+
+### Customer Service
+- 24/7 in-app chat support (premium), email support for all users
+- Knowledge base and FAQ on website
+- Response time target: <24h for email, <5min for chat
+
+---
+
+### Government Regulation
+- GDPR compliance for all user data
+- Monitor MHRA/UKCA for medical device regulation (not a diagnostic tool)
+- Regular privacy and security audits
+
+---
+
+### Strategic Management: KPIs & RACI
+- **KPIs:**
+  - Monthly active users, paid conversion rate, churn rate, NPS, average response time, revenue growth, app store rating
+- **Frameworks:**
+  - Lean Startup, Agile, Business Model Canvas, SWOT
+- **RACI Example:**
+  - Product Dev: Responsible (CTO), Accountable (CEO), Consulted (Advisors), Informed (All staff)
+  - Marketing: Responsible (CMO), Accountable (CEO), Consulted (Advisors), Informed (All staff)
+  - Compliance: Responsible (COO), Accountable (CEO), Consulted (Legal), Informed (All staff)
+
+---
+
+(Sections above are enhanced/added for clarity and coursework requirements.)
