@@ -559,6 +559,4 @@ The roadmap aligns with our key differentiators and strategic partnerships while
 
 As we execute this roadmap, we will maintain flexibility to adapt to market changes, user feedback, and technological advancements. Regular reviews and updates to the roadmap will ensure we remain focused on delivering maximum value to our users and partners while building a sustainable and scalable business.
 
----
-
 *Created for DermaIQ on April 12, 2025*

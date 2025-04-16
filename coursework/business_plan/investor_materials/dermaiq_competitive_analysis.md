@@ -272,6 +272,27 @@ DermaIQ helps users find products aligned with their values:
 - **Value Alignment**: Filtering based on user ethical preferences
 - **Transparent Supply Chain**: Information on ingredient sourcing when available
 
+## Strategic Partnerships
+
+DermaIQ has secured strategic partnerships that provide significant competitive advantages:
+
+### 1. UCL Hatchery Programme
+- Two-year equity-free incubator for UCL-affiliated startups
+- Benefits: workspace, mentorship, funding connections, academic resources
+- Application deadline: April 6, 2025
+
+### 2. NHS Digital Health Partnership
+- Integration with NHS App ecosystem and NHS Apps Library
+- Benefits: credibility, user acquisition, clinical input, potential funding
+- Target initiatives: NHS App Integration, NHSX AI Lab, NHS Innovation Accelerator
+
+### 3. Look Fantastic Retail Partnership
+- Integration of DermaIQ technology with their e-commerce platform
+- Benefits: user acquisition, B2B revenue, product database access, co-marketing
+- Partnership models: API integration, co-branded features, affiliate partnership
+
+These partnerships provide DermaIQ with credibility, resources, and market access that competitors lack, creating significant barriers to entry.
+
 ## Competitive Threat Assessment
 
 ### Current Threats

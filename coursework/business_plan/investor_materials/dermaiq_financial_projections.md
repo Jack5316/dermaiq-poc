@@ -193,6 +193,4 @@ DermaIQ presents a compelling financial opportunity with strong unit economics, 
 
 The initial seed investment of £250,000 will enable us to achieve critical early milestones, setting the foundation for significant growth and positioning the company for a successful Series A round in Year 2. With a projected LTV:CAC ratio of 14.4:1, DermaIQ offers an efficient growth model with attractive returns for early investors.
 
----
-
 *Note: These projections are based on current market conditions and assumptions. Actual results may vary. Financial projections in GBP (£). Current exchange rate: £1 = $1.31 USD.*
